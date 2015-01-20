@@ -14,3 +14,4 @@ project/target
 target
 tmp
 activator-*.sbt
+gen-py
