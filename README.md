@@ -9,10 +9,13 @@ It also includes Scala code generation via [Scrooge](http://twitter.github.io/sc
 -----------------
 
 1. Compile thrift for python into `gen-py/*`
-`thrift --gen py src/main/thrift/hello.thrift`
+
+```thrift --gen py src/main/thrift/hello.thrift```
 
 1. Compile and start the scala server:
-`sbt run`
+
+```sbt run```
 
 1. In a new window, run the python client
-`PYTHONPATH=$PYTHONPATH:./gen-py python src/main/python/thrift_client.py`
+
+```PYTHONPATH=$PYTHONPATH:./gen-py python src/main/python/thrift_client.py```
